@@ -17,6 +17,21 @@ namespace InterfaceExercise
 
         public string Logo { get; set; }
         public string Warranty { get; set; }
+
+        public void PrintInfo()
+        {
+            Console.WriteLine("Vehicle Info:");
+            Console.WriteLine(Year);
+            Console.WriteLine(Make);
+            Console.WriteLine(Model);
+            Console.WriteLine("Additional Info:");
+            Console.WriteLine($"Color: {PaintColor}");
+            Console.WriteLine("Number of seats: { NumberOfSeats}");
+            Console.WriteLine(Logo);
+            Console.WriteLine(Warranty);
+            Console.WriteLine(CargoSpace);
+            Console.WriteLine();
+        }
     }
 }
 

@@ -30,12 +30,20 @@ namespace InterfaceExercise
         public string Logo { get; set; }
         public string Warranty { get; set; }
 
-        public static void PrintInfo()
+        public void PrintInfo()
         {
-           
+            Console.WriteLine("Vehicle Info:");
+            Console.WriteLine(Year);
+            Console.WriteLine(Make);
+            Console.WriteLine(Model);
+            Console.WriteLine(PaintColor);
+            Console.WriteLine("Additional Info:");
+            Console.WriteLine($"Convertible: {Convertible}");
+            Console.WriteLine(Logo);
+            Console.WriteLine(Warranty);
+            Console.WriteLine();
         }
-    }
-
+    }    
 }
 
 

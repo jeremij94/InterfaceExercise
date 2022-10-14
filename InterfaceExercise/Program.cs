@@ -52,6 +52,8 @@ namespace InterfaceExercise
                 Warranty = "The Jack Russell 5yr/60,000mi Warranty",
             };
 
+            newSuv.PrintInfo();
+
             Car newCar = new Car();
             newCar.Logo = "Harold's Hoopties";
             newCar.Year = 1999;
@@ -72,11 +74,13 @@ namespace InterfaceExercise
             };
 
             newTruck.TowingCapacity = "8,300 to 12,000lbs";
-            newTruck.DriveTrain = "4WDemand part - time 4 - Wheel Drive with electronically controlled 2 - speed transfer case (high / low range) and Automatic Limited - Slip Differential(Auto LSD)"
+            newTruck.DriveTrain = "4WDemand part - time 4 - Wheel Drive with electronically controlled 2 - speed transfer case (high / low range) and Automatic Limited - Slip Differential(Auto LSD)";
             newTruck.Logo = "Local Toyota Dealership";
             newTruck.Warranty = "Whatever Toyota Says.";
 
-
+            newTruck.PrintInfo();
+            newCar.PrintInfo();
+            Console.ReadLine();
     }
                 
     }

@@ -9,7 +9,6 @@ namespace InterfaceExercise
         public string PaintColor { get; set; }
 
         
-
     }
 }
 
